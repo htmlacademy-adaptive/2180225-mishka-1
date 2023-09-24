@@ -1,7 +1,11 @@
 # Личный проект «Мишка» 
 
 * Студент: [Марина Тюгай](https://up.htmlacademy.ru/adaptive-individual/1/user/2180225).
+<<<<<<< HEAD
 * Наставник: [Вадим Рахманов](https://htmlacademy.ru/profile/flander).
+=======
+* Наставник: [Вадим Рахманов] (https://htmlacademy.ru/profile/flander).
+>>>>>>> 34286db97b2886b3f12cd924e3bda2f40dd839e7
 
 ---
 
