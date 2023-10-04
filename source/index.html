@@ -1,288 +1,309 @@
 <!DOCTYPE html>
 <html class="page" lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width= device-width">
-    <title>HTML Academy: Мишка</title>
-  </head>
-  <body class="page__body">
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
-    <header class="main-header">
-      <a class="main-header__logo" href="#">
-        <img class="main-header__logo-image" src="./img/mishka-logo-mobile.svg.svg" width="86" height="35" alt="mishka-logo" >
-      </a>
-      <nav class="main-nav">
-        <button class="main-nav__button-toggle" type="button"><img src="./img/menu.svg.svg" alt="гамбургер" class="button-toggle">
-          <span class="visually hidden">Открыть меню
-          </span>
-        </button>
-      </nav>
-      <section class="main-header__range">
-        <div class="range__wrapper">
-      <h1 class="range__title">Милые штуки ручнойработы для дома</h1>
-       <img class="range__hero-image" src="./img/hero-mobile@2x 1.svg" width="569" height="373" alt="Домик">
-       <ul class="range__list">
-        <li class="range__item">
-          <a class="range-item__link" href="#">Предметы интерьера<img src="./img/interior.svg.svg" width="40" height="62" alt="Лампа">
-          </a></li>
-        <li class="range__item">
-          <a class="range-item__link" href="#">Детские игрушки<img src="./img/toy-svg.svg" width="60" height="60" alt="Лого">
-          </a></li>
-       </ul>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width= device-width">
+  <title>HTML Academy: Мишка</title>
+</head>
+<body class="page__body">
+  <header class="main-header">
+    <a class="main-header__logo" href="#">
+      <img class="main-header__logo-image" src="./img/mishka-logo-mobile.svg.svg" width="86" height="35" alt="logo">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__button-toggle" type="button"><img src="./img/menu.svg.svg" alt="toggle"
+          class="button-toggle">
+        <span class="visually hidden">
+          Открыть меню
+        </span>
+      </button>
+      <!-- Menu -->
+      <div class="main-nav__list site-list catalog-menu__list">
+        <ul class="catalog-menu__list">
+          <li class="catalog-menu__item">
+            <a href="#">
+              Каталог товаров
+            </a>
+          </li>
+          <li class="catalog-menu__item">
+            <a href="#">
+              Вязание на заказ
+            </a>
+          </li>
+          <li class="catalog-menu__item">
+            <a class="catalog-menu__search" href="#">
+              <img src="./img/search.svg.svg" alt="search" width="18" height="18">
+              Поиск по сайту
+            </a>
+          </li>
+          <li class="catalog-menu__item">
+            <a href="#">
+              <img src="./img/cart.svg.svg" class="catalog-menu__image-cart" alt="cart" width="21" height="18">
+              Корзина: пока пуста
+            </a>
+          </li>
+        </ul>
+    </nav>
+    <section class="main-header__range catalog-menu__range">
+      <div class="range__wrapper">
+        <h1 class="range__title">
+          Милые штуки ручнойработы для дома
+        </h1>
+        <img class="range__image-hero" src="./img/hero-mobile@2x 1.svg" width="569" height="373" alt="house">
+        <ul class="range__list">
+          <li class="range__item">
+            <a class="range__item-link" href="#">
+              Предметы интерьера
+              <img src="./img/interior.svg.svg" class="range__image-lamp" width="40" height="62" alt="lamp">
+            </a>
+          </li>
+          <li class="range__item">
+            <a class="range-item__link" href="#">
+              Детские игрушки
+              <img src="./img/toy-svg.svg" class="range__image-lego" width="60" height="60" alt="lego">
+            </a>
+          </li>
+        </ul>
       </div>
-      </section>
-    </header>
-    <main class="main-container">
-      <section class="featured">
-        <div class="featured__wrapper">
-          <h2 class="featured__title">Вязаные корзинки</h2>
-            <p class="featured__slogan">
-              <a href="#">ТОВАР НЕДЕЛИ</a>
-            </p>
-            <p class="featured__intro">
-                Экологически чистая пряжа,
-                ручная работа. Доступны в шести расцветках и трёх размерах.
-              </p>
-              <div class="featured-image__table">
-              <img class="featured-image__table1" src="./img/table1.svg" width="97" height="100" alt="характеристика товара">
-              <img class="featured-image__table2" src="./img/table-2.svg" width="162" height="100" alt="значение">
-            </div>
-            <div class="featured-photo__baskets-image">
-              <img class="baskets-image" src="./img/triple-set-mobile-1.jpg" width="260" height="315" alt="Карзинки">
-            </div>
-            <div class="featured__price price">
-              <p class="price__description">
-                Цена: 990 руб.</p>
-                <div class="featured__button button">
-                  <a href="#" class="button">
-                    ЗАКАЗАТЬ</a>
-                </div>
-                <div class="featured-image__line">
-                  <img class="featured-image__line" src="./img/zigzag-line-desktop.svg.svg" alt="Волнистая полоска">
-                </div>
-            </div>
-      </section>
-      <section class="about">
-        <div class="about__wrapper">
+    </section>
+  </header>
+  <div class="featuredo__image-set>
+          <img class=" image-set" src="./img/triple-set-mobile-1.jpg" width="260" height="315" alt="set">
+  </div>
+  <div class="featured__price price">
+    <p class="price__description">
+      Цена: 990 руб.</p>
+    <div class="featured__button button">
+      <a href="#" class="button">
+        ЗАКАЗАТЬ</a>
+    </div>
+    <div class="featured-image__line">
+      <img class="featured-image__line" src="./img/zigzag-line-desktop.svg.svg" alt="Волнистая полоска">
+    </div>
+  </div>
+  </section>
+  </nav>
+  </header>
+  <main class="main-container">
+    <section class="featured">
+      <div class="featured__wrapper">
+        <h2 class="featured__title">
+          Вязаные корзинки
+        </h2>
+        <p class="featured__slogan">
+          <a href="#">
+            ТОВАР НЕДЕЛИ
+          </a>
+        </p>
+        <p class="featured__intro">
+          Экологически чистая пряжа,
+          ручная работа. Доступны в шести расцветках и трёх размерах.
+        </p>
+        <!-- <div class="featured__table">
+          <img class="featured__table1" src="./img/table1.svg" width="97" height="100"
+            alt="характеристика товара">
+          <img class="featured__table2" src="./img/table-2.svg" width="162" height="100" alt="значение">
+        </div> -->
+        <div class="featured__baskets-image">
+          <img class="bascets-image" src="./img/triple-set-mobile-1.jpg" width="260" height="315" alt="bascets">
+        </div>
+        <div class="featured__price price">
+          <p class="price__description">
+            Цена: 990 руб.</p>
+          <div class="featured__button button">
+            <a href="#" class="button">
+              ЗАКАЗАТЬ
+            </a>
+          </div>
+          <div class="featured__line">
+            <img class="line" src="./img/zigzag-line-desktop.svg.svg" alt="wavy-line">
+          </div>
+        </div>
+    </section>
+    <section class="about">
+      <div class="about">
         <h2 class="about__title">Коротко о нас:</h2>
         <ul class="about__list">
           <li class="about__item">
-            <img src="./img/icon-1.svg.svg" alt="Цветок" class="about-icon__icon-1" width="33" height="38">
+            <img src="./img/icon-1.svg.svg" alt="flower" class="about-icon__flower" width="33" height="38">
             <p class="about__description">
-              <b>Экологически чистые материалы</b>
+              <b>
+                Экологически чистые материалы
+              </b>
             </p>
           </li>
           <li class="about__item">
-            <img src="./img/icon-3.svg.svg" alt="Рамка" class="about-icon__icon-3" width="47" height="27">
+            <img src="./img/icon-3.svg.svg" alt="frame" class="about-icon__icon-3" width="47" height="27">
             <p class="about__description">
-              <b>Скандинавский стиль по российской цене</b>
+              <b>
+                Скандинавский стиль по российской цене
+              </b>
             </p>
           </li>
           <li class="about__item">
-            <img src="./img/icon-5.svg.svg" alt="сердце" class="about-icon__icon-5" width="34" height="27">
+            <img src="./img/icon-5.svg.svg" alt="heart" class="about-icon__heart" width="34" height="27">
             <p class="about__description">
-              <b>Увеличивает лайкина фотографиях</b>
+              <b>
+                Увеличивает лайкина фотографиях
+              </b>
             </p>
           </li>
           <li class="about__item">
-            <img src="./img/icon-2.svg.svg" alt="Клубок" class="about-icon__icon-2" width="35" height="34">
+            <img src="./img/icon-2.svg.svg" alt="clew" class="about-icon__clew" width="35" height="34">
             <p class="about__description">
-              <b>Связано вручную
-                с любовью и умилением</b>
+              <b>
+                Связано вручную
+                с любовью и умилением
+              </b>
             </p>
           </li>
           <li class="about__item">
-            <img src="./img/Vector.svg" alt="Ракета" class="about-icon__icon-rocket" width="41" height="23">
+            <img src="./img/Vector.svg" alt="rocket" class="about-icon__rocket" width="41" height="23">
             <p class="about__description">
-              <b>Поддержка отечественного производителя</b>
+              <b>
+                Поддержка отечественного производителя
+              </b>
             </p>
           </li>
           <li class="about__item">
-            <img src="./img/icon-6.svg.svg" alt="Подарочная упаковка" class="about-icon__icon-6" width="33" height="23">
+            <img src="./img/icon-6.svg.svg" alt="gift-box" class="about-icon__gift-box" width="33" height="23">
             <p class="about__description">
-              <b>Поставляется
-                в подарочной упаковке</b>
+              <b>
+                Поставляется
+                в подарочной упаковке
+              </b>
             </p>
           </li>
         </ul>
       </div>
-       <div class="reviews__wrapper">
-          <h2 class="reviews__title">Отзывы</h2>
-          <div class="reviews__list">
-            <blockquote class="reviews__item">
-            <cite>Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как
-            у популярных инстамамочек.
-            В отчаянии, я накупила аксессуаров и игрушек в Мишке,
-            и мои фотографии сразу стали более стильными, а также набирают больше лайков!
-          </cite></blockquote>
-          <p class="reviewe__avthor-name"><b>Анастасия Красильникова
-          </b>@misssssiskras</p>
+      <div class="reviews">
+        <h2 class="reviews__title">
+          Отзывы
+        </h2>
+        <div class="reviews__list">
+          <blockquote class="reviews__item">
+            <cite>
+              Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как
+              у популярных инстамамочек.
+              В отчаянии, я накупила аксессуаров и игрушек в Мишке,
+              и мои фотографии сразу стали более стильными, а также набирают больше лайков!
+            </cite>
+          </blockquote>
+          <p class="reviewe__text">
+            <b>
+              Анастасия Красильникова
+            </b>
+            @misssssiskras
+          </p>
         </div>
-      <div class="reviews-slider__wrapper slider__wrapper">
-        <ul class="slider__list">
-          <li class="slider__item">
-      <p class="reviews__toggles slider__toggles">
-        <button class="slider__toggle slider__toggle-current" type="button">
-        <img src="./img/huge-arrow-left.svg.svg" alt="Стрелка влево" class="review__togle" width="50" height="26">
-      </button>
-    </li>
-      <li class="slider__item">
-      <button class="slider__toggle" type="button">
-        <img src="./img/huge-arrow-right.svg.svg" alt="Стрелка вправо" class="review__togle" width="50" height="26">
-      </button>
-      </p>
-      </li>
-    </ul>
-    </div>
-    </div>
-    <div class="reviews__button button">
-      <a href="#" class="button">
-        Написать</a>
-    </div>
-  </div>
-      </section>
-        <section class="contacts">
-          <div class="contacts__wrapper">
-          <h2 class="contacts__title">Контакты</h2>
-          <div class="contacts__wrapper">
+        <div class="reviews__slider slider">
+          <ul class="slider__list">
+            <li class="slider__item">
+              <p class="slider__toggles">
+                <button class="slider__toggle slider__toggle-current" type="button">
+                  <img src="./img/huge-arrow-left.svg.svg" alt="left" class="review__togle-left" width="50" height="26">
+                </button>
+            </li>
+            <li class="slider__item">
+              <button class="slider__toggle" type="button">
+                <img src="./img/huge-arrow-right.svg.svg" alt="right" class="slider__togle-right" width="50"
+                  height="26">
+              </button>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="reviews__button button">
+        <a href="#" class="button">
+          Написать
+        </a>
+      </div>
+      </div>
+    </section>
+    <section class="contacts">
+      <div class="contacts__wrapper">
+        <h2 class="contacts__title">
+          Контакты
+        </h2>
+        <!-- <div class="contacts__wrapper">
           <img src="./img/Group 3.svg" alt="email-адрес" width="76" height="90" class="contacts__info">
-          <img src="./img/info@email-adress/8, офис 101.svg" alt="информация" width="183" height="150" class="contacts__info">
+          <img src="./img/info@email-adress/8, офис 101.svg" alt="информация" width="183" height="150"
+            class="contacts__info">
+        </div> -->
+        <div class="contacts-image__wrapper">
+          <img src="./img/map-mobile@1x 1.svg" alt="map" width="320" height="454" class="contacts-image__map">
+          <img src="./img/map-pin.svg.svg" alt="M" width="28" height="39" class="contacts-image__M">
         </div>
-        <div class="map-mobile-img__wrapper">
-          <img src="./img/map-mobile@1x 1.svg" alt="Карта" width="320" height="454" class="map-mobile-img__image">
-          <img src="./img/map-pin.svg.svg" alt="M" width="28" height="39" class="map-mobile-img__image">
-        </div>
-        <div class="map-mobile__button button">
+        <div class="contacts__button button">
           <a href="#" class="button">
-            НАпишите нам</a>
+            НАпишите нам
+          </a>
         </div>
-          </div>
-        </section>
-    </main>
-    <footer class="main-footer">
-      <div class="main-footer__wrapper">
+      </div>
+    </section>
+  </main>
+  <footer class="main-footer">
+    <div class="main-footer__wrapper">
       <div class="main-footer__social social">
         <ul class="social__list">
           <li class="social__item">
             <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">
-            <img src="./img/Vector-WK.svg" alt="В контакте" width="27" height="17" class="social__image-logo">
-          </a></li>
+              <img src="./img/Vector-WK.svg" alt="wk" width="27" height="17" class="social__image-wk">
+            </a>
+          </li>
           <li class="social__item">
             <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru">
-            <img src="./img/Vector-youtube.svg" alt="Ютуб" width="24" height="19" class="social__image-logo">
-          </a></li>
+              <img src="./img/Vector-youtube.svg" alt="youtube" width="24" height="19" class="social__image-youtube">
+            </a>
+          </li>
           <li class="social__item">
             <a class="social__link social__link--telegram" href="https://t.me/htmlacademy">
-            <img src="./img/Vector (Stroke)-Telegramm.svg" alt="Телеграмм" width="20" height="17" class="social__image-logo">
-          </a></li>
+              <img src="./img/Vector (Stroke)-Telegramm.svg" alt="telegramm" width="20" height="17"
+                class="social__image-telegramm">
+            </a>
+          </li>
         </ul>
       </div>
       <div class="main-footer__copyright copyright">
-        <b>Разработано</b>
-      <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
-        <img class="main-footer__logo" src="./img/htmlacademy.svg" width="27" height="34"
-alt="Логотип-htmlacademy"></a>
-</div>
+        <b>
+          Разработано
+        </b>
+        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+          <img class="main-footer__logo" src="./img/htmlacademy.svg" width="27" height="34" alt="logo-htmlacademy">
+        </a>
+      </div>
     </div>
-    </footer>
-    <!-- Menu -->
-    <header class="main-header catalog-menu">
-      <a class="main-header__logo catalog-menu__logo" href="#">
-        <img class="catalog-menu__logo-image" src="./img/mishka-logo-mobile.svg.svg" width="86" height="35" alt="mishka-logo" >
-      </a>
-      <nav class="main-nav nav-catalog-menu">
-        <button class="catalog-menu-button__toggle" type="button">
-          <img src="./img/menu-close.svg.svg" alt="Крестик" class="button-toggle"><span class="visually hidden">Открыть меню
-          </span>
-        </button>
-          <div class="main-nav__list site-list catalog-menu__list">
-            <ul class="catalog-menu__list">
-              <li class="catalog-menu__item">
-                <a href="#">Каталог товаров</a></li>
-              <li class="catalog-menu__item"><a href="#">
-                Вязание на заказ</a></li>
-              <li class="catalog-menu__item">
-                <a class="catalog-menu__search-item" href="#">
-                <img src="./img/search.svg.svg" alt="Поиск" width="18" height="18">
-                Поиск по сайту</a></li>
-              <li class="catalog-menu__item">
-                <a href="#">
-                <img src="./img/cart.svg.svg" alt="Корзина" width="21" height="18">
-              Корзина: пока пуста</a></li>
-            </ul>
-        </nav>
-        <section class="main-header__range catalog-menu__range">
-          <div class="range__wrapper">
-        <h1 class="range__title">Милые штуки ручнойработы для дома</h1>
-         <img class="range__hero-image" src="./img/hero-mobile@2x 1.svg" width="569" height="373" alt="Домик">
-         <ul class="range__list">
-          <li class="range__item">
-            <a class="range-item__link" href="#">Предметы интерьера<img src="./img/interior.svg.svg" width="40" height="62" alt="Лампа">
-            </a></li>
-          <li class="range__item">
-            <a class="range-item__link" href="#">Детские игрушки<img src="./img/toy-svg.svg" width="60" height="60" alt="Лого">
-            </a></li>
-         </ul>
-        </div>
-        </section>
-      </header>
-      <main class="main-container">
-        <section class="featured">
-          <div class="featured__wrapper catalog-menu__featured">
-            <h2 class="featured__title">Вязаные корзинки</h2>
-              <p class="featured__slogan">
-                <a href="#">ТОВАР НЕДЕЛИ</a>
-              </p>
-              <p class="featured__intro">
-                Экологически чистая пряжа,
-                ручная работа. Доступны в шести расцветках и трёх размерах.
-              </p>
-              <div class="featured-image__table">
-              <img class="featured-image__table1" src="./img/table1.svg" width="97" height="100" alt="характеристика товара">
-              <img class="featured-image__table2" src="./img/table-2.svg" width="162" height="100" alt="значение">
-            </div>
-            <div class="featured-photo__baskets-image">
-              <img class="baskets-image" src="./img/triple-set-mobile-1.jpg" width="260" height="315" alt="Карзинки">
-            </div>
-            <div class="featured__price price">
-              <p class="price__description">
-                Цена: 990 руб.</p>
-                <div class="featured__button button">
-                  <a href="#" class="button">
-                    ЗАКАЗАТЬ</a>
-                </div>
-                <div class="featured-image__line">
-                  <img class="featured-image__line" src="./img/zigzag-line-desktop.svg.svg" alt="Волнистая полоска">
-                </div>
-            </div>
-      </section>
-      <!-- Modal -->
-      <div class="modal open-modal">
-        <section class="modal-bascet">
-          <h2 class="modai__title">Добавить в корзину</h2>
-          <p class="modal__descrription">Выберите размер:</p>
-          <ul class="modal__list">
-            <li class="modal__item">
-              <div class="modal__button">
-                <a href="#" class="button">
-                  <img src="./img/size-btn-S.svg" width="82" height=""=52" alt="S" class="button-S">
-                  S</a>
-                 <a href="#" class="button">
-                  <img src="./img/size-btn-M.svg" width="82" height=""=52" alt="S" class="button-M">
-                  M</a>
-                 <a href="#" class="button">
-                  <img src="./img/sine-btn-L.svg" width="82" height=""=52" alt="S" class="button-L">
-                  L</a>
-              </div>
-              <div class="modal__button button">
-                <a href="#" class="button">
-                  Добавить</a>
-            </li>
-          </ul>
+  </footer>
+  <!-- Modal -->
+  <div class="modal open-modal">
+    <section class="modal-bascet">
+      <h2 class="modai__title">Добавить в корзину</h2>
+      <p class="modal__descrription">Выберите размер:</p>
+      <ul class="modal__list">
+        <li class="modal__item">
+          <div class="modal__button">
+            <a href="#" class="button">
+              <img src="./img/size-btn-S.svg" width="82" height=""=52" alt="S" class="button-S">
+              S
+            </a>
+            <a href="#" class="button">
+              <img src="./img/size-btn-M.svg" width="82" height=""=52" alt="S" class="button-M">
+              M
+            </a>
+            <a href="#" class="button">
+              <img src="./img/sine-btn-L.svg" width="82" height=""=52" alt="S" class="button-L">
+              L
+            </a>
+          </div>
+          <div class="modal__button button">
+            <a href="#" class="button">
+              Добавить
+            </a>
+        </li>
+      </ul>
+    </section>
+  </div>
+</body>
 
-
-        </section>
-    </div>
-  </body>
 </html>
