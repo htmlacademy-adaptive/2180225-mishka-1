@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width= device-width">
+  <title>Форма</title>
+</head>
+<body class="page__body">
+    <!-- header -->
+    <header class="main-header">
+          <a class="main-header__logo logo" href="index.html">
+            <img class="main-header__image" src="./img/mishka-logo.svg" width="86" height="35"
+              alt="Логотип">
+          </a>
+          <nav class="main-nav">
+          <button class="main-nav__toggle" type="button">
+            <img class="main-nav__image" src="./img/menu.svg" width="20" height="14" alt="Кнопка">
+            <span class="visually-hidden">
+              Открыть меню
+            </span></button>
+          </nav>
+        </header>
+            <main class="main-inner">
+              <header class="inner-header">
+                <h1 class="inner-header__title">Вязание на заказ</h1>
+              </header>
+          <section class="specifications">
+          <div class="specifications__wrapper">
+            <h2 class="visually-hidden">Форма заказа</h2>
+            <p class="specifications-text">
+              Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.
+            </p>
+            <form action="#" method="post">
+              <fieldset class="specifications__type">
+                <legend class="specifications__title">ТИП</legend>
+                <label class="control-input">
+                <input type="radio" name="type" checked>
+                Аксессуар для  интерьера
+              </label>
+              <label class="control-input"><input type="radio" name="specifications-toy">Детская игрушка
+              </label>
+            </fieldset>
+            <fieldset class="specifications__color">
+              <legend class="specifications__title">ЦВет</legend>
+              <label class="control-input"><input type="checkbox" name="color" checked>Белый</label>
+              <label class="control-input"><input type="checkbox" name="color" checked>Серый</label>
+              <label class="control-input"><input type="checkbox" name="color">Тиффани</label>
+              <label class="control-input"><input type="checkbox" name="color">Черный</label>
+              <label class="control-input"><input type="checkbox" name="color">Розовый</label>
+              <label class="control-input"><input type="checkbox" name="color">Оранжевый</label>
+            </fieldset>
+            <fieldset class="specifications__username">
+              <legend class="specifications__title">ФИО</legend>
+              <label class="specifications__text" for="name">Имя:<input type="text" name="name" id="name" placeholder="Введите ваше имя*"></label>
+              <label class="specifications__text" for="surname">Фамилия:<input type="text" name="surname" id="surname" placeholder="Укажите фамилию*"></label>
+              <label class="specifications__text" for="middle-name">Отчество:<input type="text" name="middle-name" id="middle-name" value="Отчество, если желаете"></label>
+            </fieldset>
+            <fieldset class="specifications__tel">
+              <legend class="specifications__title">тел</legend>
+              <label for="tel"><input type="text" name="tel" id="tel" placeholder="+7 ХХХ ХХХ ХХ ХХ*"></label>
+            </fieldset>
+            <fieldset class="specifications__email">
+              <legend>E-mail</legend>
+              <label for="e-mail"><input type="text" name="e-mail" id="e-mail" placeholder="Ваш Email*"></label>
+            </fieldset>
+            <fieldset class="specifications__wishes">
+              <legend class="specifications__title">Доп</legend>
+              <label for="wishes"><textarea name="wishes" id="wishes" cols="30" rows="10" placeholder="Опишите все ваши  пожелания к заказу"></textarea></label>
+            </fieldset>
+            <p class="specification__slogan">*Поля обязательны для заполнения</p>
+            <button class="specifications__button" type="submit"><span class="specifications__button-text">ОТПРАВИТЬ ЗАКАЗ</span></button>
+            </form>
+          </div>
+        </section>
+        </div>
+        </main>
+            <footer class="main-footer">
+              <div class="main-footer__wrapper">
+                <div class="main-footer-social social">
+                    <ul class="main-footer-social__list">
+                      <li class="main-footer-social__item">
+                        <a class="main-footer-social__link social__link--vcontakte" href="https://vk.com/htmlacademy">
+                          <img class="main-footer-social__icon icon-vk" src="./img/vk.svg" alt="Вконтакте" width="27" height="17">
+                        </a>
+                      </li>
+                     <li class="main-footer-social__item">
+                          <a class="main-footer-social__link social__link--youtube" href="htpps://www.youtube.com/user/htmlacademyru">
+                            <img class="main-footer-social__icon icon-youtube" src="./img/youtube.svg" alt="Ютуб" width="24" height="19">
+                          </a>
+                      </li>
+                      <li class="main-footer-social__item">
+                        <a class="main-footer-social__link social__link--telegram" href="htpps://t.me/htmlacademy">
+                          <img class="main-footer-social__icon icon-telegram" src="./img/telegram.svg" alt="Телеграм"
+                            width="20" height="17">
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                <div class="main-footer-copyright copyright">
+                  <b class="copyright__text">
+                      Разработано</b>
+                  <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+                    <img class="copyright__logo" src="./img/htmlacademy.svg" width="27" height="34"
+                      alt="Логотип htmlacademy">
+                  </a>
+                </div>
+              </div>
+              </footer>
+          </body>
+          </html>
+
+
