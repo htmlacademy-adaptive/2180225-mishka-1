@@ -1,12 +1,296 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Мишка</title>
-  </head>
-  <body>
+<html class="page" lang="ru">
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width= device-width">
+  <title>HTML Academy: Мишка</title>
+</head>
+<body class="page__body">
+    <!-- header -->
+    <header class="main-header">
+       <a class="main-header__logo logo">
+         <img class="main-header__image" src="./img/mishka-logo.svg" width="86" height="35"
+              alt="Логотип">
+       </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">
+          <img class="main-nav__image" src="./img/menu.svg" width="20" height="14" alt="Кнопка">
+            <span class="visually-hidden">
+              Открыть меню
+            </span>
+          </button>
+          <!-- mobile/menu -->
+          <div class="breadcrumbs__wrapper">
+             <a class="breadcrumbs__logo logo" href="index.html">
+                  <img class="breadcrumbs__image" src="./img/mishka-logo.svg" width="86" height="35"
+                    alt="Логотип">
+              </a>
+               <button class="breadcrumbs__button-close" type="button">
+                <img class="breadcrumbs__image" src="./img/menu-close.svg" width="20" height="14" alt="Кнопка">
+                  <span class="visually-hidden">
+                    Закрыть меню
+                  </span>
+                </button>
+                <ul class="breadcrumbs__list">
+                  <li class="breadcrumbs__item">
+                    <a href="catalog.html">
+                      Каталог товаров
+                    </a>
+                  </li>
+                  <li class="breadcrumbs__item">
+                    <a href="form.html">
+                      Вязание на заказ
+                    </a>
+                  </li>
+                  </ul>
+                  <a class="breadcrumbs__button-search search search-hover search-down"  href="#">
+                      <img class="breadcrumbs__image search-image" src="./files/search.svg"  alt="Кнопка" width="18" height="18">
+                      <span class="breadcrumbs__text">Поиск по сайту</span>
+                    </a>
+                  <a class="breadcrumbs__link-cart cart-hover cart-down" href="#">
+                      <img class="breadcrumbs__image cart-image" src="./files/cart.svg" alt="Карзина" width="21" height="18">
+                      <span class="breadcrumbs__text">Корзина: пока пуста</span>
+                    </a>
+                  </div>
+                  </nav>
+                </header>
+                <!-- main -->
+                <main class="main-container">
+                  <header class="page-header">
+                  <div class="page-header__wrapper">
+                    <h1 class="page-header__title">Милые штуки ручнойработы для дома
+                    </h1>
+                    <img class="page-header__image" src="./img/hero.svg" width="569" height="373" alt="Баннер">
+                         </div>
+                    <div class="page-header__nav__list site-list">
+                      <ul class="site-list">
+                        <li class="site-list__item">
+                          <a href="#">
+                            Предметы интерьера
+                            <img class="site-list__image" src="./img/interior.svg" width="40" height="62" alt="Лампа">
+                          </a>
+                        </li>
+                        <li class="site-list__item">
+                          <a href="#">
+                            Детские игрушки
+                            <img class="site-list__image" src="./img/toy.svg" width="60" height="60" alt="Лего">
+                          </a>
+                        </li>
+                      </ul>
+                      </div>
+                      </nav>
+  </header>
+    <section class="featured">
+      <div class="featured__wrapper">
+        <h2 class="featured__title">
+          Вязаные корзинки
+        </h2>
+        <p class="featured__slogan">
+          <a class="featured__text" href="#">
+            ТОВАР НЕДЕЛИ
+          </a>
+        </p>
+        <p class="featured__intro">
+          Экологически чистая пряжа,
+          ручная работа. Доступны в шести расцветках и трёх размерах.
+        </p>
+          <table class="featured__table">
+            <tr>
+              <td>Цвет:</td>
+              <td>тиффани/серый</td>
+            </tr>
+            <tr>
+              <td>Диаметр:</td>
+              <td>25 см</td>
+            </tr>
+            <tr>
+              <td>Высота:</td>
+              <td>15 см</td>
+            </tr>
+          </table>
+          <div class="featured__image__wrapper">
+           <img class="featured__image set-image" src="./img/triple-set.jpg" width="260" height="315" alt="Карзинки ручной работы">
+          </div>
+        <p class="featured__price">
+          Цена: 990 руб.</p>
+          <button class="featured__button-order button" type="button">
+            ЗАКАЗАТЬ
+          </button>
+          <img class="featured__decoration-line" src="./files/zigzag-line.svg" alt="wavy-line">
+      </div>
+    </section>
+    <section class="about">
+      <div class="about__wrapper">
+        <h2 class="about__title">
+          Коротко о нас:
+        </h2>
+        <ul class="about__list">
+          <li class="about__item">
+            <img src="./files/icon-flover.svg" alt="Цветок" width="33" height="38">
+            <p class="about__description">
+              <strong>
+                Экологически чистые материалы
+              </strong>
+            </p>
+          </li>
+          <li class="about__item">
+            <img src="./files/icon-frame.svg" alt="Рамка" width="47" height="27">
+            <p class="about__description">
+              <strong>
+                Скандинавский стиль по российской цене
+              </strong>
+            </p>
+          </li>
+          <li class="about__item">
+            <img src="./files/icon-heart.svg" alt="Лайк" width="34" height="27">
+            <p class="about__description"><strong>
+                Увеличивает лайкина фотографиях
+              </strong></p>
+          </li>
+          <li class="about__item">
+            <img class="about__icon-clew" src="./files/icon-knitting.svg" alt="Клубок ниток" width="35" height="34">
+            <p class="about__description"><strong>
+                Связано вручную
+                с любовью и умилением
+              </strong></p>
+          </li>
+          <li class="about__item">
+            <img class="about__icon-rocket" src="./files/icon-rocket.svg" alt="Ракета" width="41" height="23">
+            <p class="about__description"><strong>
+                Поддержка отечественного производителя
+              </strong></p>
+          </li>
+          <li class="about__item">
+            <img class="about__icon-gift-box" src="./files/icon-gift-box.svg" alt="Подарочная упаковка" width="33" height="23">
+            <p class="about__description"><strong>
+                Поставляется
+                в подарочной упаковке
+              </strong></p>
+          </li>
+        </ul>
+      </div>
+      </section>
+      <section class="reviews">
+        <div class="reviews__wrapper">
+          <h2 class="reviews__title">
+            Отзывы
+          </h2>
+            <blockquote class="reviews__description">
+              <p class="reviews__text">
+              Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как
+              у популярных инстамамочек.
+              В отчаянии, я накупила аксессуаров и игрушек в Мишке,
+              и мои фотографии сразу стали более стильными, а также набирают больше лайков!
+            </p>
+            <div class="reviews__author-info">
+              <cite class="reviews__author-name">
+                <strong> Анастасия Красильникова</strong>
+                 @misssssiskras
+              </cite>
+              </div>
+            </blockquote>
+            <div class="reviews__slider">
+                  <button class="reviews__button btn-prev" type="button">
+                    <img class="reviews__image btn-left" src="./img/huge-arrow-left.svg" alt="Предыдущий" width="50"
+                      height="26">
+                  </button>
+                <button class="reviews__button btn-next" type="button">
+                  <img class="reviews__image btn-right" src="./img/huge-arrow-right.svg" alt="Следующий" width="50"
+                    height="26">
+                </button>
+              </div>
+          <button class="reviews__button btn-write" type="button">
+            Написать
+          </button>
+        </div>
+      </section>
+        <section class="contacts">
+          <div class="contacts__wrapper">
+          <h2 class="contacts__title">
+            Контакты
+          </h2>
+            <table class="contacts__table table">
+              <tr>
+                <td class="table__email">e-mail:</td>
+                <td class="table__info">info@mimimishkashop.ru</td>
+              </tr>
+              <tr>
+                <td class="table__text">адрес:</td>
+                <td class="table__adress">г. Санкт-Петербургул. Большая Конюшеннаяд. 19/8, офис 101</td>
+              </tr>
+            </table>
+          <div class="contacts__map map">
+            <img class="map__image" src="./img/map.svg" alt="Карта города" width="320" height="454">
+            <img class="map__image map-pin" src="./img/map-pin.svg" alt="Пин" width="28" height="39">
+        </div>
+          <button class="contacts-button" type="button">
+            НАпишите нам
+          </button>
+        </div>
+    </section>
+  </main>
+  <footer class="main-footer">
+            <div class="main-footer__wrapper">
+              <div class="main-footer__social social">
+                  <ul class="social__list">
+                    <li class="social__item">
+                      <a class="social__link social__link--vcontakte" href="https://vk.com/htmlacademy">
+                        <img class="social__icon icon-vk" src="./img/vk.svg" alt="Вконтакте" width="27" height="17">
+                      </a>
+                    </li>
+                   <li class="social__item">
+                        <a class="social__link social__link--youtube" href="htpps://www.youtube.com/user/htmlacademyru">
+                          <img class="socia__icon icon-youtube" src="./img/youtube.svg" alt="Ютуб" width="24" height="19">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                      <a class="social__link social__link--telegram" href="htpps://t.me/htmlacademy">
+                        <img class="social__icon icon-telegram" src="./img/telegram.svg" alt="Телеграм"
+                          width="20" height="17">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              <div class="main-footer__copyright copyright">
+                <b class="copyright__text">
+                    Разработано
+                </b>
+                <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+                  <img class="copyright__logo" src="./img/htmlacademy.svg" width="27" height="34"
+                    alt="Логотип htmlacademy">
+                </a>
+              </div>
+            </div>
+            </footer>
+            <!-- Modal -->
+            <div class="modal__wrapper">
+                <b class="modal__title">Добавить в корзину</b>
+                <p class="modal__text">Выберите размер:</p>
+                <ul class="modal__list">
+                  <li class="modal__item">
+                      <button class="modal__button-size" type="button">
+                        <span class="button-text">S</span>
+                      </button>
+                      </li>
+                      <li class="modal__item">
+                      <button class="modal__button-size" type="button">
+                        <span class="button-text">M</span>
+                      </button>
+                    </li>
+                    <li class="modal__item">
+                      <button class="modal__button-size" type="button">
+                        <span class="button-text">L</span>
+                      </button>
+                      </li>
+                  </ul>
+                      <button class="modal__button-add" type="button">
+                        <span class="modal__button-text">Добавить</span>
+                      </button>
+                      </div>
 
-  </body>
+
+
+</body>
+
 </html>
